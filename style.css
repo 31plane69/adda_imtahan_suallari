@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.btn{
+    padding: 12px 18px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid red;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+}
+
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+
+.row{
+    display:flex;
+    column-gap: 10px;
+    height: 80%;
+    align-items: center;
+
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #000;
+    font-size: 80px;
+
+}
+
+.desc{
+    font-size: 16px;
+    color: #000;
+}
+
+.cards{
+    max-width: 400px;
+    margin: auto;
+}
+
+.card{
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./pitak.png);
+    border-radius: 10px;
+    padding:15px 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s;
+    margin: 10px 15px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    border-color: #fff;
+}
+
+.card .card-head{
+    background-color: rgba(0,0,0,0.7);
+    color: #ffff;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.card .card-button{
+    position: absolute;
+    bottom: 26px;
+
+}
