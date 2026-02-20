@@ -97,3 +97,51 @@ nav ul li a{
 nav ul li a:hover{
     color: #2bff00;
 }
+
+.card.card-2{
+      width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./pitak.png);
+    border-radius: 10px;
+    padding:15px 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid red;
+    position: absolute;
+    transition: ease 0.5s;
+    margin: -75px 170px;
+}
+
+.card.card-1{
+     width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./pitak.png);
+    border-radius: 10px;
+    padding:15px 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s;
+    margin: -75px 170px;
+}
+
+.card.card-0{
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(./pitak.png);
+    border-radius: 10px;
+    padding:15px 25px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid red;
+    position: relative;
+    transition: ease 0.5s;
+    margin: 0;
+}
